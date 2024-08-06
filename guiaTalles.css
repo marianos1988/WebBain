@@ -1,0 +1,564 @@
+/* -------------------- SECCION INICIO -----------------------*/
+
+/*Contenedor guia de taller*/
+.container-guia-de-talles {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*titulos guida de talles*/
+.container-guia-de-talles h3 {
+	font-size: 38px;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	border-radius: 15px;
+	line-height: 1;
+	text-align: center;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+}
+
+/*las imagenes guia de talles*/
+.container-guia-de-talles p img {
+	width: 355px;
+	height: 390px;
+	margin-bottom: 20px;
+}
+
+/*musculosa hombre guia de talles*/
+.container-guia-de-talles p .musculosa-hombre {
+	transform: scale(.7);
+}
+
+/*musculosa hombre guia de talles*/
+.container-guia-de-talles p .musculosa-ribb-midi {
+	transform: scale(.85);
+}
+
+/*musculosa hombre guia de talles*/
+.container-guia-de-talles p .musculosa-ribb-basic {
+	transform: scale(.75);
+}
+
+.container-guia-de-talles p .buzo {
+	transform: scale(1.2);
+	margin: 63px 0 83px 0;
+}
+
+.container-guia-de-talles p .jogging {
+	transform: scale(.8);
+}
+
+
+/*Imagen de musculosa guia de talles*/
+.container-guia-de-talles p img.img-musculosa {
+	transform: scale(300px,495px);
+}
+
+/*Cartel importante guia de talles*/
+.container-guia-de-talles .important-texts {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid black;
+	border-radius: 20px;
+}
+
+/*titulo de Cartel importante guia de talles*/
+.container-guia-de-talles .important-texts h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+
+/*Puntos cartel guia de talles*/
+.container-guia-de-talles .important-texts ul {
+	list-style-type:armenian
+}
+
+/*Efecto boton Whatsapp*/
+.btn-whatsapp:hover {
+	
+	background-color: #1fce5f;
+	outline: 2px rgb(48, 48, 48) solid;
+	transition: all .5s;
+	-webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,1);
+	box-shadow: 0px 0px 20px -2px rgba(0,0,0,1);
+
+}
+
+/*Banner porcentaje descuento productos*/
+.label {
+	padding: 7px;
+	border-radius: 15px;
+}
+
+/*Boton primario agregar carrito o comprar*/
+.btn-primary {
+	border-radius: 15px;
+
+}
+
+.btn-primary:hover {
+
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	background-color: #ffbf58;	
+	transition: all .5s ease-in;
+	color: black;
+}
+
+.btn-primary.btn-primary:active {
+
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	background-color: #ffbf58;	
+	transition: all .5s ease-in;
+	color: black;
+}
+
+/*Boton lupa buscar*/
+
+.btn-desktop-search {
+	border-radius: 50%;
+}
+.btn-desktop-search:hover {
+	background: #f39c12;
+	outline: solid 1px black;
+	transform: translateY(-3px);
+	transition: all .5s;
+}
+.btn-desktop-search:active {
+	background: #f39c12;
+	outline: solid 1px black;
+	transform: translateY(-3px);
+	transition: all .5s;
+}
+
+/* boton Carrito compras*/
+.cart-summary {
+	border-radius: 20px;
+
+}
+.cart-summary:hover {
+	outline: solid 1px black;
+	background: #f39c12;
+	transition: all .5s;
+	
+}
+
+/*carrito y badge numero*/
+.cart-summary a svg,
+.cart-summary a span {
+	transform: translateX(-3px);
+}
+
+/*items menu*/
+
+.desktop-nav-item:hover {
+	background-color: #ccc;
+	transition: all .5s ease-in;
+	
+}
+
+.desktop-nav-link {
+	letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.desktop-nav-link:hover, .desktop-nav-link:focus .desktop-nav-link::selection {
+    color: black;
+	opacity: 1;
+}
+
+/* Titulo inicio Bain */
+
+/* .subtitle-container {
+
+	background: rgb(204,204,204);
+	background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 43%, rgba(204,204,204,1) 100%);
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+
+.subtitle-container h2 {
+	font-size: 40px;
+	color: black;
+	text-shadow: 0.1em 0.1em 0.2em rgb(54, 54, 54);
+} */
+
+/*Descripcion del titulo*/
+.subtitle-paragraph p {
+	font-weight: 900;
+	font-size: 17px;
+}
+.user-access a {
+	padding: 5px;
+}
+/*Crear y logear botones*/
+.user-access a:hover {
+	text-decoration: none;
+	background-color: #ccc;
+	transition: all .5s ease-in;
+	font-weight: 900;
+}
+
+/*Modulo servicio de envios y medios pagos*/
+
+.services .span4:not(:last-child) {
+	border-color: black;
+	border-right: 3px solid black;
+}
+.service-item-container {
+	background-color: #ccc;
+    padding: 7px;
+    border-radius: 20px;
+    border: 3px solid black;
+	height: inherit;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+.js-mobile-services .swiper-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.js-mobile-services .swiper-wrapper .service-item-container {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 95%;
+	background-color: #ccc;
+    padding: 7px;
+    border-radius: 20px;
+    border: 3px solid black;
+	height: inherit;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+
+
+/*Mdoificar botones Footer*/
+.span2 .col-foot ul a,
+.span4 .col-foot ul a {
+	padding: 4px;
+}
+.span2 .col-foot ul a:hover,
+.span4 .col-foot ul a:hover {
+		text-decoration: none;
+	background-color: #000000;
+	color: white;
+	transition: all .5s ease-in;
+	font-weight: 900;
+}
+
+.span2 .col-foot a.footer-icon:hover {
+	outline: #f39c12 solid 3px;
+	-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	transition: all .4s ease-in;
+}
+
+.powerred-by-logo a {
+	display: none;
+}
+
+.footer {
+    background: linear-gradient(270deg, #e1e1e1, #cccccc, #aaaaaa, #cecbcb, #c5c5c5);
+    background-size: 1000% 1000%;
+
+    animation: AnimationName 17s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+/**/
+
+
+@media (max-width:600px) {
+
+	/*Ajustes de pantalla titulos guia de talles*/
+	.container-guia-de-talles h3 {
+		font-size: 30px;
+
+	}
+	/*Icono carrito compra hover*/
+	.cart-summary:hover {
+		padding: 6px;
+	}
+
+	/*Ajuste subtitulo Bienvenidos a Bain*/
+	.subtitle-container {
+		margin-left: 3%;
+
+	}
+	.subtitle-container h2 {
+		font-size: 30px;
+		line-height: 1;
+	}
+}
+
+
+/*Modulo servicio de envios y medios pagos*/
+@media (min-width: 700px) AND (max-width: 979px) {
+	.service-icon {
+		transform: translateX(-3px)
+	}
+}
+
+@media (min-width: 979px) AND (max-width: 1199px) {
+	.service-item-container {
+
+		height: 80px;
+		
+	}
+
+	.service-item:first-child,
+	.service-item:nth-child(2) {
+		transform: translateY(3px);
+	}
+
+}
+
+
+/* --------------------------- FIN SECCION INICIO ----------------------------- */
+
+/* --------------------------- SECCION PRODUCTOS ------------------------------- */
+
+
+/* Categorias */
+.list-unstyled li a {
+ 	padding: 4px
+}
+
+.list-unstyled li a:hover {
+	text-decoration: none;
+	background-color: #ccc;
+	transition: all .4s ease-in;
+	font-weight: 900;
+}
+
+/* Seleccion de filtros */
+
+.filters-container .js-filter-checkbox .checkbox:hover {
+	transition: all .4s ease-in;
+	font-weight: 900;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+/*Titulos de Filtros*/
+.container-product-grid .visible-when-content-ready .p-bottom-double .hidden-phone h4 {
+	background-color: black;
+	padding: 6px;
+	color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+	text-align: center;
+}
+
+.container-product-grid .visible-when-content-ready .hidden-phone h4 {
+	background-color: black;
+	padding: 6px 10px;
+	width: fit-content;
+	color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+	text-align: center;
+
+}
+
+#filters-container #filters-column .filters-container h6 {
+	background-color: black;
+	padding: 6px 10px;
+	width: fit-content;
+	color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+	text-align: center;
+}
+#filters-container #filters-column .js-price-filter-container form .h6 {
+	background-color: black;
+	padding: 6px 10px;
+	width: fit-content;
+	color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+	text-align: center;
+}
+
+
+/*Ajuste de titulos de filtros*/
+@media (min-width: 850px) AND (max-width: 979px) {
+	.container-product-grid .visible-when-content-ready .p-bottom-double .hidden-phone h4 {
+		padding: 10px 7px;
+    	width: 112px;
+		transform: translateX(-18px);
+	}
+}
+
+/* --------------------------- FIN SECCION PRODUCTOS ------------------------------- */
+
+/* ------------------------------  SECCION ENVIOS Y PAGOS ------------------------------- */
+
+.container-envios-y-pagos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* titulos */
+.container-envios-y-pagos h3 {
+	font-size: 38px;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	border-radius: 15px;
+	line-height: 1;
+	text-align: center;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+}
+
+/*Descripcion del titulo */
+.container-envios-y-pagos .texts-envios p {
+	font-size: 24px;
+	line-height: 1.2;
+}
+.container-envios-y-pagos .opciones-envio {
+	
+	font-size: 23px;
+	padding: 15px;
+    border: 4px solid black;
+    border-radius: 20px;
+	line-height: 1;
+}
+
+.container-envios-y-pagos .opciones-envio h4 {
+	font-size: 25px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	text-decoration:  3px black underline ;
+}
+
+.container-envios-y-pagos .opciones-envio ul {
+	margin-top: 25px;
+
+}
+
+.container-envios-y-pagos .opciones-envio ul li {
+	line-height: 30px;
+}
+
+.container-envios-y-pagos .correo-argentino {
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+.container-envios-y-pagos .pagos {
+	font-size: 23px;
+	padding: 15px;
+    border: 4px solid black;
+    border-radius: 20px;
+
+}
+
+.container-envios-y-pagos .pagos {
+	font-size: 23px;
+	padding: 15px;
+    border: 4px solid black;
+    border-radius: 20px;
+
+}
+
+.container-envios-y-pagos .pagos ul {
+
+	font-size: 23px;
+	line-height: 1.5;
+}
+
+.container-envios-y-pagos .pagos ul li {
+
+	line-height: 30px;
+}
+
+/* ------------------------------ FIN SECCION ENVIOS Y PAGOS ------------------------------- */
+
+/* ------------------------------  SECCION DEVOLUCIONES Y CAMBIOS ------------------------------- */
+
+.container-devoluciones-y-cambios {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-devoluciones-y-cambios h3 {
+	font-size: 38px;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	border-radius: 15px;
+	line-height: 1;
+	text-align: center;
+	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+}
+.container-devoluciones-y-cambios ul {
+	margin-top: 35px;
+	list-style-type: none;
+}
+.container-devoluciones-y-cambios ul li {
+    line-height: 30px;
+    font-size: 24px;
+    transform: translateY(57px);
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    border: 3px solid black;
+	text-align: center;
+}
+/* ------------------------------ FIN SECCION DEVOLUCIONES Y CAMBIOS ------------------------------- */
+
+/* ------------------------------  SECCION CONTACTO ------------------------------- */
+.contact .span6 .info ul li a {
+	text-decoration: none;
+
+}
+
+.contact .span6 .info ul li a:hover {
+	color: white;
+	background-color: #000000;
+	transition: all .5s ease-in;
+	padding: 3px;
+	font-weight: 900;
+}
+
+.contact_form .form_group input:focus {
+	border-color: #f39c12 !important;
+	box-shadow: #f39c12 !important;
+	-webkit-box-shadow: #f39c12 !important;
+}
+
+
+
+/* ------------------------------ FIN SECCION CONTACTO ------------------------------- */

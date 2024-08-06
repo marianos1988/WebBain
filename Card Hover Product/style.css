@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.container .card {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.container .card .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.container .card .face.face1 h2 {
+  margin: 0;
+  padding: 0;
+}
+.container .card .face.face1 .java {
+  background-color: white;
+  font-size: 22px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .card .face.face1 .python {
+  background-color: white;
+  font-size: 22px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .card .face.face1 .cSharp {
+  background-color: white;
+  font-size: 22px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .card .face.face2 {
+  transition: 0.5s;
+}
+.container .card .face.face2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  color: #f39c12;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.container .card:hover .face.face2 {
+  height: 60px;
+}
+.container .card:hover .face.face2 h2 {
+  font-size: 2em;
+}
+.container .card:nth-child(1) .face.face2 {
+  background-image: linear-gradient(40deg, #ffffff 0%, #636363 45%, #1d1d1d 100%);
+  border-radius: 15px;
+}
+.container .card:nth-child(2) .face.face2 {
+  background-image: linear-gradient(40deg, #1d1d1d 0%, #ffffff 45%, #666666 100%);
+  border-radius: 15px;
+}
+.container .card:nth-child(3) .face.face2 {
+  background-image: linear-gradient(40deg, #5c5c5c 0%, #161616 45%, #d3d3d3 100%);
+  border-radius: 15px;
+}

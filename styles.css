@@ -644,13 +644,22 @@ animation: AnimationName 17s ease infinite;
 
 
 }
-
+.hamburger-panel {
+	fill: white;
+}
 
 .hamburger-panel-link {
 
     color: #fff;
 	font-weight: 900;
 
+}
+.hamburger-panel .hamburger-panel-arrow-icon {
+    fill: #ffffff;
+}
+
+.list-items li:first-child {
+    border-top: 1px solid #f39c12;
 }
 
 .list-items li {
@@ -661,9 +670,11 @@ animation: AnimationName 17s ease infinite;
 	border-left: 0;
     text-decoration: none;
 }
-.list-items li:first-child {
-	border-top: 1;
+
+.hamburger-panel .list-items .hamburger-panel-link {
+	font-weight: 900;
 }
+
 
 
 

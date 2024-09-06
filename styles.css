@@ -285,11 +285,7 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
     animation: AnimationName 17s ease infinite;
 }
 
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+
 
 
 /**/
@@ -615,15 +611,64 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 /*Boton Burguer */
 .mobile-nav-first-row-icon {
 	font-size: 12px;
+	color: white;
 	font-weight: 900;
-	background-color: #ccc;
-	border: solid 2px black;
+	background-color: #000;
+	border: solid 2px #ccc;
 	border-radius: 15px;
 	margin-left: 8px;
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, .75);
 }
 
 /*Desplegar menu*/
 
 .new-modal {
 	transition: .5s cubic-bezier(.16,.68,.43,.99);
+}
+
+.theme-wide .mobile-nav-first-row-icon svg {
+	background: white;
+	padding: 2px;
+	border-radius: 5px;
+	margin-bottom: 0px;
+}
+
+
+/* Fondo Menu */
+
+.hamburger-panel {
+background-color: #000;
+background: linear-gradient(270deg, #000000, #393939,#1e1e1e, #6e6e6e, #1e1e1e);
+background-size: 1000% 1000%;
+animation: AnimationName 17s ease infinite;
+
+
+}
+
+
+.hamburger-panel-link {
+
+    color: #fff;
+	font-weight: 900;
+
+}
+
+.list-items li {
+
+	border: 1px solid #f39c12;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+    text-decoration: none;
+}
+.list-items li:first-child {
+	border-top: 1;
+}
+
+
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }

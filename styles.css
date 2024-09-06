@@ -161,8 +161,15 @@
 	transform: translateX(-3px);
 }
 
-/*items menu*/
+/*  */
 
+.desktop-nav-link {
+	background-color: #000;
+background: linear-gradient(270deg, #000000, #393939,#1e1e1e, #6e6e6e, #1e1e1e);
+background-size: 1000% 1000%;
+animation: AnimationName 17s ease infinite;
+}
+/*items menu*/
 .desktop-nav-item:hover {
 	background-color: #ccc;
 	transition: all .5s ease-in;
@@ -634,7 +641,7 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 }
 
 
-/* Fondo Menu */
+/* Barra de Menu */
 
 .hamburger-panel {
 background-color: #000;
@@ -675,7 +682,30 @@ animation: AnimationName 17s ease infinite;
 	font-weight: 900;
 }
 
+.btn-hamburger-close-icon {
+    fill: #ffffff;
+    transform: scale(1.3) translate(-19px, -3px);
+    z-index: 9999;
+    position: fixed;
+}
 
+/*Menu Crear cuenta | Iniciar sesion*/
+
+.user-badge {
+
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, .75);
+	border: 2px solid #000;
+	border-radius: 15px;
+}
+
+.mobile-accounts-item {
+	font-weight: 900;
+}
+
+.hamburger-panel .mobile-accounts {
+    background-color: #fff;
+    border-top: 4px solid #ccc;
+}
 
 
 @keyframes AnimationName {

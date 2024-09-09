@@ -163,48 +163,55 @@
 
 /* navbar */
 
-.desktop-nav {
+.desktop-nav,
+.desktop-nav-list {
     background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
     background-size: 1000% 1000%;
     animation: AnimationName 17s ease infinite;
-    padding: 20px 0px;
+    padding: 17px 0px;
+	font-size: 14px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-decoration: none;
+
 }
+
+
 .desktop-nav-item {
-	color: white;
-}
-
-/*items menu*/
-/* .desktop-nav-link:hover, .desktop-nav-link:focus {
-     
-	color: black;
-	background-color: #f39c12;
-	opacity: 1;
-	transition: all .4s ease-in;
-} */
-
-.desktop-nav-item .desktop-nav-link:hover, .desktop-nav-item .desktop-nav-link:focus {
-	color: #f39c12;
-
-	transition: all .4s ease-in;
+	background-color: transparent;
+	outline-color: none;
 }
 
 .desktop-nav-link {
-	background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
-    background-size: 1000% 1000%;
-    animation: AnimationName 17s ease infinite;
-	letter-spacing: 1px;
-	font-size: 14px;
-	font-weight: 900;
-	border: 3px solid #f39c12;
-    text-decoration: none;
 	color: white;
+	border: 3px solid #f39c12;
+	margin: 3px 0px;
 }
 
-.desktop-nav-link:hover, .desktop-nav-link:focus .desktop-nav-link::selection {
-    color: black;
+.desktop-nav-link:hover {
+	color: #f39c12;
+	background-color: #a8a8a8;
+	transition: all .4s ease;
 	opacity: 1;
 }
 
+.desktop-nav>.selected>.desktop-nav-link {
+    border-top: 3px solid #a8a8a8;
+
+}
+
+.desktop-nav-list {
+	border: none;
+	padding: 0;
+}
+
+
+.desktop-nav-list>.desktop-nav-item>.desktop-nav-link {
+	margin: 0;
+	border: 3px 3px 0px 3px;
+	border-color: #f39c12;
+	border-style: solid;
+}
 /* Titulo inicio Bain */
 
 /* .subtitle-container {

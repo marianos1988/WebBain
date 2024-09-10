@@ -6,8 +6,8 @@
 }
 
 .container-clothes-work .tittle {
-  max-width: 70%;
-  font-size: 38px;
+  max-width: 95%;
+  font-size: 33px;
 	color: white;
 	background-color: black;
 	padding: 15px;
@@ -29,7 +29,7 @@
 }
 
 .container-clothes-work h2 {
-  max-width: 70%;
+  max-width: 80%;
   font-size: 28px;
 	color: white;
 	background-color: black;

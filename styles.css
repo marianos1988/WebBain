@@ -3,21 +3,45 @@
 /*Contenedor guia de taller*/
 .container-guia-de-talles {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+.container-guia-de-talles .box-talle {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+	background: linear-gradient(270deg, #6e6e6e, #4b4b4b, #6e6e6e, #4b4b4b);
+	animation: AnimationName 7s ease infinite;
+	color: white;
+	padding: 5%;
+	border: 3px solid #f39c12;
+	border-radius: 20px;
+}
+
+
+
 /*titulos guida de talles*/
 .container-guia-de-talles h3 {
-	font-size: 38px;
-	color: white;
-	background-color: black;
-	padding: 15px;
-	border-radius: 15px;
-	line-height: 1;
-	text-align: center;
-	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+
+	border: 3px solid #f39c12;  
+	max-width: 80%;
+	font-size: 28px;
+	margin-bottom: 20px;
+	  color: white;
+	  background-color: black;
+	  padding: 10px;
+	  border-radius: 15px;
+	  line-height: 1;
+	  text-align: center;
+	  -webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	  -moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	  box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
 }
 
 /*las imagenes guia de talles*/

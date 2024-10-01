@@ -22,6 +22,9 @@
 	padding: 5%;
 	border: 3px solid #f39c12;
 	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
+-moz-box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
+box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
 }
 
 
@@ -67,7 +70,7 @@
 }
 
 .container-guia-de-talles p .buzo {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	margin: 63px 0 83px 0;
 }
 
@@ -91,6 +94,11 @@
 	align-items: center;
 	border: 4px solid black;
 	border-radius: 20px;
+    box-shadow: 0px 0px 15px 8px rgba(243, 156, 18, 1);
+    color: white;
+    background: black;
+
+
 }
 
 /*titulo de Cartel importante guia de talles*/
@@ -475,59 +483,89 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 
 .container-envios-y-pagos {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-/* titulos */
-.container-envios-y-pagos h3 {
-	font-size: 38px;
+.container-envios-y-pagos .box {
+	display: flex;
+	width: 95%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(270deg, #6e6e6e, #4b4b4b, #6e6e6e, #4b4b4b);
+	animation: AnimationName 7s ease infinite;
 	color: white;
-	background-color: black;
-	padding: 15px;
-	border-radius: 15px;
-	line-height: 1;
-	text-align: center;
-	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
+	padding: 5%;
+	border: 3px solid #f39c12;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
+-moz-box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
+box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
+}
+
+/* titulos */
+.container-envios-y-pagos .box h3 {
+	border: 3px solid #f39c12;  
+	max-width: 80%;
+	font-size: 28px;
+	margin-bottom: 20px;
+	  color: white;
+	  background-color: black;
+	  padding: 10px;
+	  border-radius: 15px;
+	  line-height: 1;
+	  text-align: center;
+	  -webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	  -moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	  box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
 }
 
 /*Descripcion del titulo */
-.container-envios-y-pagos .texts-envios p {
+.container-envios-y-pagos .box .texts-envios p {
 	font-size: 24px;
 	line-height: 1.2;
 }
-.container-envios-y-pagos .opciones-envio {
+.container-envios-y-pagos .box .opciones-envio {
 	
 	font-size: 23px;
 	padding: 15px;
     border: 4px solid black;
     border-radius: 20px;
 	line-height: 1;
+	padding: 15px;
+	width: 90%;
+	border: 4px solid black;
+	border-radius: 20px;
+    box-shadow: 0px 0px 15px 8px rgba(243, 156, 18, 1);
+    color: white;
+    background: black;
 }
 
-.container-envios-y-pagos .opciones-envio h4 {
+.container-envios-y-pagos .box .opciones-envio h4 {
 	font-size: 25px;
 	line-height: 1.2;
 	margin-bottom: 20px;
 	text-decoration:  3px black underline ;
 }
 
-.container-envios-y-pagos .opciones-envio ul {
+.container-envios-y-pagos .box .opciones-envio ul {
 	margin-top: 25px;
 
 }
 
-.container-envios-y-pagos .opciones-envio ul li {
+.container-envios-y-pagos .box .opciones-envio ul li {
 	line-height: 30px;
 }
 
-.container-envios-y-pagos .correo-argentino {
+.container-envios-y-pagos .box .correo-argentino {
 	font-size: 24px;
 	line-height: 1.2;
 }
 
-.container-envios-y-pagos .pagos {
+.container-envios-y-pagos .box .pagos {
 	font-size: 23px;
 	padding: 15px;
     border: 4px solid black;
@@ -535,21 +573,29 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 
 }
 
-.container-envios-y-pagos .pagos {
+.container-envios-y-pagos .box .pagos {
 	font-size: 23px;
 	padding: 15px;
     border: 4px solid black;
     border-radius: 20px;
+	line-height: 1;
+	padding: 15px;
+	width: 90%;
+	border: 4px solid black;
+	border-radius: 20px;
+    box-shadow: 0px 0px 15px 8px rgba(243, 156, 18, 1);
+    color: white;
+    background: black;
 
 }
 
-.container-envios-y-pagos .pagos ul {
+.container-envios-y-pagos .box .pagos ul {
 
 	font-size: 23px;
 	line-height: 1.5;
 }
 
-.container-envios-y-pagos .pagos ul li {
+.container-envios-y-pagos .box .pagos ul li {
 
 	line-height: 30px;
 }

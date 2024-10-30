@@ -54,6 +54,21 @@ body {
 	justify-content: left;
 	font-weight: 700;
 	margin-bottom: 20px;
+	line-height: 1.2;
+ }
+
+ .container-descriptionp .box div img {
+	width: 300px !important;
+ }
+
+ .container-descriptionp .box div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .container-descriptionp .box div table {
+	width: 100% !important;
  }
 
  .container-descriptionp .box ul {

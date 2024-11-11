@@ -131,6 +131,11 @@ box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
 	border-radius: 15px;
 }
 
+.label:hover {
+opacity: .8s;
+transition: all .4s ease-in;
+}
+
 /*Boton primario agregar carrito o comprar*/
 .btn-primary {
 	border-radius: 15px;
@@ -317,36 +322,74 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 
 
 /*Mdoificar botones Footer*/
-.span2 .col-foot ul a,
-.span4 .col-foot ul a {
-	padding: 4px;
+
+.footer h4 {
+
+	color: #f39c12;
+	font-size: 18px;
+	text-decoration: underline;
+padding-bottom: 10px;
 }
+
+.footer ul a {
+color: white;
+
+}
+
+.footer-icon {
+fill: white;
+}
+
+.span2 .col-foot ul a, .span4 .col-footer ul a {
+padding: 4px;
+color: white;
+}
+
+.footer-icon, .footer a, .footer li {
+color: #ffffff;
+}
+
 .span2 .col-foot ul a:hover,
 .span4 .col-foot ul a:hover {
-		text-decoration: none;
-	background-color: #000000;
-	color: white;
-	transition: all .5s ease-in;
-	font-weight: 900;
+	text-decoration: none;
+opacity: .6;
+background-color: rgba(0, 0, 0, 0);
+transition: all .4s ease-in;
+color:#f39c12;
 }
 
 .span2 .col-foot a.footer-icon:hover {
-	outline: #f39c12 solid 3px;
-	-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
-	-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
-	box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
-	transition: all .4s ease-in;
+outline: #f39c12 solid 3px;
+-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+transition: all .4s ease-in;
 }
 
 .powerred-by-logo a {
-	display: none;
+display: none;
+}
+
+.uneditable-input:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, textarea:focus {
+transition: all .4s ease-in;
+border-color:#f39c12;
+-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
 }
 
 .footer {
-    background: linear-gradient(270deg, #e1e1e1, #cccccc, #aaaaaa, #cecbcb, #c5c5c5);
-    background-size: 1000% 1000%;
-
-    animation: AnimationName 17s ease infinite;
+border-top: 3px #f39c12 solid;
+border-bottom: 3px #f39c12 solid;
+background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
+background-size: 1000% 1000%;
+animation: AnimationName 17s ease infinite;
+padding: 17px 10px;
+font-size: 14px;
+font-weight: 900;
+letter-spacing: 1px;
+text-decoration: none;
+margin-bottom: 10px;
 }
 
 

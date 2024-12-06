@@ -816,25 +816,48 @@ box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
 /* ------------------------------  SECCION CONTACTO ------------------------------- */
 .contact .span6 .info ul li a {
 	text-decoration: none;
+	width: 100%;
+	font-size: 18px;
 
 }
 
 .contact .span6 .info ul li a:hover {
-	color: white;
-	background-color: #000000;
-	transition: all .5s ease-in;
-	padding: 3px;
 	font-weight: 900;
+	font-size: 20px;
+	opacity: .6;
+	transition: all .4s ease-in;
+	color:#f39c12;
 }
 
 .contact_form .form_group input:focus {
-	border-color: #f39c12 !important;
-	box-shadow: #f39c12 !important;
-	-webkit-box-shadow: #f39c12 !important;
+    transition: all .4s ease-in;
+    border-color: #f39c12;
+    box-shadow: 0px 0px 15px 8px rgba(243, 156, 18, 1);
+
+}
+
+.contact .span6 .m-bottom {
+    margin-bottom: 20px !important;
+    display: flex;
+    flex-direction: column;
+	justify-content: left;
+	margin-left: 15px;
+
 }
 
 
 
+ul.list-style-none li {
+	display: flex;
+	font-size: 18px;
+    width: 300px;
+
+}
+
+.span6.list-style-none:nth-child(2) {
+	background-color: #1fce5f;
+	margin-left: 0;
+}
 /* ------------------------------ FIN SECCION CONTACTO ------------------------------- */
 
 /* ------------------------------  SECCION DESCRIPCION ------------------------------- */
@@ -870,6 +893,7 @@ box-shadow: 0px 0px 23px 0px rgba(243,156,18,1);
 	font-size: 20px;
 	justify-content: left;
 	font-weight: 700;
+
  }
 
 

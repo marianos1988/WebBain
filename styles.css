@@ -303,6 +303,46 @@ transition: all .4s ease-in;
 }
 
 
+.mobile-home-categories.horizontal-container.pills-container.container-fluid.visible-phone.text-left.m-bottom-half ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
+    background-size: 1000% 1000%;
+    animation: AnimationName 17s ease infinite;
+    padding: 17px 0px;
+	font-size: 14px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.mobile-home-categories.horizontal-container.pills-container.container-fluid.visible-phone.text-left.m-bottom-half ul li {
+
+	border: 3px solid #f39c12;
+
+}
+.mobile-home-categories.horizontal-container.pills-container.container-fluid.visible-phone.text-left.m-bottom-half ul li a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.mobile-home-categories.horizontal-container.pills-container.container-fluid.visible-phone.text-left.m-bottom-half ul li:hover {
+
+
+	opacity: .6;
+	transition: all .4s ease-in;
+
+}
+
+.mobile-home-categories.horizontal-container.pills-container.container-fluid.visible-phone.text-left.m-bottom-half ul li a:hover{
+
+	opacity: .6;
+	color:#f39c12;
+	transition: all .4s ease-in;
+}
 
 /* Titulo inicio Bain */
 

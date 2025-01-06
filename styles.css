@@ -1083,3 +1083,46 @@ animation: AnimationName 17s ease infinite;
 	font-weight: 700;
 }
 
+.variation_1 .row-fluid .js-insta-variant.btn-variant.insta-variations.selected  {
+	border: 4px black solid;
+	border-radius: 5%;
+	-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	box-shadow: 0px 0px 10px 6px rgba(243,156,18,1);
+	transition: all .4s ease-in;
+}
+
+.variation_2 .row-fluid .js-insta-variant.btn-variant.insta-variations.selected  {
+	border: 4px black solid;
+	border-radius: 5%;
+	background-color: rgb(211, 130, 1);
+	-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	box-shadow: 0px 0px 10px 6px rgba(243,156,18,1);
+	transition: all .4s ease-in;
+}
+
+.title.m-top-xs.full-width .product-name.h2.h4-xs {
+	font-family: fantasy;
+	font-size: 30px;
+}
+
+.js-insta-variant.btn-variant.btn-variant-custom.insta-variations.insta-variations_btn-custom .btn-variant-content {
+	font-weight: 800;
+}
+
+.js-shipping-calculator-form.shipping-calculator-form.full-width.transition-up.p-absolute.transition-up-active .js-calculate-shipping.btn-shipping.btn.btn-secondary.btn-small.calculate-shipping-button.d-inline-block {
+
+	background-color:rgba(243,156,18,1);
+	color: rgb(255, 255, 255);
+}
+
+.js-shipping-calculator-form.shipping-calculator-form.full-width.transition-up.p-absolute.transition-up-active .js-calculate-shipping.btn-shipping.btn.btn-secondary.btn-small.calculate-shipping-button.d-inline-block:hover {
+
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	background-color: #ffbf58;	
+	transition: all .5s ease-in;
+	color: black;
+}

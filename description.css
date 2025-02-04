@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     width: 100%;
 }
+
 .container-descriptionp {
 	display: flex;
 	width: 95%;
@@ -30,6 +31,9 @@ body {
 
 
  }
+* {
+	font-family:'Courier New', Courier, monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
 
  .container-descriptionp .box h3 {
 	border: 3px solid #f39c12;  

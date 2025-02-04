@@ -1,5 +1,8 @@
 /* -------------------- SECCION INICIO -----------------------*/
 
+* {
+	font-family:"Fira Sans", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
 /*Contenedor guia de taller*/
 .container-guia-de-talles {
 	display: flex;
@@ -227,7 +230,7 @@ transition: all .4s ease-in;
 
 /* navbar */
 
-.desktop-nav,
+/* .desktop-nav,
 .desktop-nav-list {
     background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
     background-size: 1000% 1000%;
@@ -238,6 +241,18 @@ transition: all .4s ease-in;
 	letter-spacing: 1px;
 	text-decoration: none;
 
+} */
+
+.desktop-nav,
+.desktop-nav-list {
+border-radius: 10px;
+background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
+			 padding: 14px 0px;
+			 font-size: 10px;
+			 font-weight: 600;
+			 letter-spacing: 1px;
+			 text-decoration: none;
 }
 
 
@@ -246,9 +261,14 @@ transition: all .4s ease-in;
 	outline-color: none;
 }
 
-.desktop-nav-link {
+/* .desktop-nav-link {
 	color: white;
 	border: 3px solid #f39c12;
+	margin: 3px 0px;
+} */
+
+.desktop-nav-link {
+	color: white;
 	margin: 3px 0px;
 }
 
@@ -260,8 +280,14 @@ transition: all .4s ease-in;
 	
 }
 
-.desktop-nav>.selected>.desktop-nav-link {
+/* .desktop-nav>.selected>.desktop-nav-link {
     border-top: 3px solid #a8a8a8;
+
+} */
+
+.desktop-nav>.selected>.desktop-nav-link {
+    border-top: none;
+	text-decoration: none;
 
 }
 
@@ -291,6 +317,7 @@ transition: all .4s ease-in;
 	color:#f39c12;
 	border: 3px solid #f39c12;
 	border-radius: 20px;
+
 }
 
 .breadcrumb h1 {

@@ -8,14 +8,14 @@
 }
 
 .container-clothes-work .tittle {
-  border: 3px solid #f39c12;  
+  border: 1px solid #e1e1e1;
   max-width: 95%;
   font-size: 33px;
 	color: white;
 	background-color: black;
 	padding: 15px;
 	border-radius: 15px;
-	line-height: 1;
+	line-height: 1; 
 	text-align: center;
 	box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, .75);
 }
@@ -33,12 +33,13 @@
 	border-radius: 20px;
   background-color: #000;
 background: linear-gradient(270deg, #000000, #393939,#1e1e1e, #6e6e6e, #1e1e1e);
+box-shadow: 20px 20px 60px #a3a1a1, -20px -20px 60px #e1e1e1;
 background-size: 1000% 1000%;
 animation: AnimationName 17s ease infinite;
 }
 
 .container-clothes-work .box-info h2 {
-  border: 3px solid #f39c12;  
+  border: 1px solid #e1e1e1;
   max-width: 80%;
   font-size: 28px;
   margin-bottom: 20px;
@@ -48,9 +49,6 @@ animation: AnimationName 17s ease infinite;
 	border-radius: 15px;
 	line-height: 1;
 	text-align: center;
-	-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
-	-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
-	box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
 }
 .container-clothes-work .box-info .box-consu-y-coti {
   display: flex;

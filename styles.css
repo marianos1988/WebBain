@@ -3,6 +3,8 @@
 * {
 	font-family:"Fira Sans", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
 }
+
+
 /*Contenedor guia de taller*/
 
 .container-guia-de-talles {
@@ -1096,7 +1098,7 @@ ul.list-style-none li {
 /*------------------------------ HOME -------------------------------*/
 
 /*Boton Burguer */
-.mobile-nav-first-row-icon {
+/* .mobile-nav-first-row-icon {
 	font-size: 12px;
 	color: white;
 	font-weight: 900;
@@ -1105,7 +1107,28 @@ ul.list-style-none li {
 	border-radius: 15px;
 	margin-left: 8px;
 	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, .75);
+} */
+
+.mobile-nav-first-row-icon.p-relative.svg-icon-text {
+
+	margin-left: 15px;
+	color: gainsboro;
+	border-radius: 10px;
+	background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+	box-shadow: 8px 8px 20px #8f8d8d,-8px -8px 20px #ccc;
+	cursor: pointer;
 }
+
+.mobile-nav-first-row-icon.p-relative.svg-icon-text:hover,
+.mobile-nav-first-row-icon.p-relative.svg-icon-text svg:hover {
+
+	background-color: #f0a225 !important;
+	color: #f0a225;
+	transition: all .4s ease-in;
+
+}
+
+
 
 /*Desplegar menu*/
 

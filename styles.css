@@ -1001,7 +1001,7 @@ margin-bottom: 10px;
 /* ------------------------------ FIN SECCION DEVOLUCIONES Y CAMBIOS ------------------------------- */
 
 /* ------------------------------  SECCION CONTACTO ------------------------------- */
-.contact .span6 .info ul li a {
+/* .contact .span6 .info ul li a {
 	text-decoration: none;
 	width: 100%;
 	font-size: 18px;
@@ -1032,8 +1032,6 @@ margin-bottom: 10px;
 
 }
 
-
-
 ul.list-style-none li {
 	display: flex;
 	font-size: 18px;
@@ -1044,7 +1042,68 @@ ul.list-style-none li {
 .span6.list-style-none:nth-child(2) {
 	background-color: #1fce5f;
 	margin-left: 0;
+} */
+
+.contact .span6 .m-bottom {
+    margin-bottom: 20px !important;
+    display: flex;
+    flex-direction: column;
+	justify-content: left;
+	margin-left: 15px;
+
 }
+.contact .span6 .info ul li a {
+	text-decoration: none;
+	width: 100%;
+	font-size: 18px;
+
+}
+
+.span6.list-style-none:nth-child(2) {
+
+	margin-left: 0;
+}
+
+.contact .span6:nth-child(2) {
+	background: linear-gradient(90deg, #807f7f -15%, rgba(0, 0, 0, 1) 33%);
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px #727272, -5px -5px 10px #d1d1d1;
+}
+
+.row-fluid.info.m-top.m-bottom .span6.list-style-none {
+	background: inherit !important;
+	border: none;
+	color: #fff;
+	box-shadow: none
+}
+
+.span6.span6.list-style-none {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.span6.span6.list-style-none li{
+
+	width: 300px;
+}
+
+.span6.list-style-none a,
+.span6.list-style-none svg {
+	color: #fff;
+	fill: #fff;
+	font-size: 16px;
+} 
+
+
+
+
+
 /* ------------------------------ FIN SECCION CONTACTO ------------------------------- */
 
 /* ------------------------------  SECCION DESCRIPCION ------------------------------- */

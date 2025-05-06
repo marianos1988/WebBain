@@ -1112,6 +1112,11 @@ ul.list-style-none li {
 
 @media (max-width:769px) {
 
+	.span6 .form.pull-left.full-width {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	.form.pull-left.full-width .contact_form {
 
 		background: linear-gradient(90deg, #807f7f -15%, rgba(0, 0, 0, 1) 33%);
@@ -1134,6 +1139,7 @@ ul.list-style-none li {
 		justify-content: center;
 		align-items: center;
 	}
+
 	
 }
 

@@ -1127,6 +1127,13 @@ ul.list-style-none li {
 		background: none;
 		box-shadow: none;
 	}
+
+	.row-fluid.info.m-top.m-bottom .span6.list-style-none {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	
 }
 

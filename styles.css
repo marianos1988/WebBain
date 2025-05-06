@@ -1055,7 +1055,15 @@ ul.list-style-none li {
 .contact .span6 .info ul li a {
 	text-decoration: none;
 	width: 100%;
-	font-size: 18px;
+	font-size: 16px;
+	font-family: "Montserrat",Sans-serif;
+
+}
+
+.contact .span6 .info ul li a:hover {
+
+	color:#f0a225;
+	transition: all .4s ease-in;
 
 }
 
@@ -1102,6 +1110,25 @@ ul.list-style-none li {
 
 
 
+@media (max-width:769px) {
+
+	.form.pull-left.full-width .contact_form {
+
+		background: linear-gradient(90deg, #807f7f -15%, rgba(0, 0, 0, 1) 33%);
+		color: #fff;
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 5px 5px 10px #727272, -5px -5px 10px #d1d1d1;
+		width: 93%;
+		height: 480px;
+	}
+
+	.contact .span6:nth-child(2) {
+		background: none;
+		box-shadow: none;
+	}
+	
+}
 
 
 /* ------------------------------ FIN SECCION CONTACTO ------------------------------- */

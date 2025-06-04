@@ -378,6 +378,13 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	transition: all .4s ease-in;
 }
 
+.js-pages-accordion.list-subitems.hamburger-panel-accordion li .js-pages-accordion.list-subitems.hamburger-panel-accordion {
+background: linear-gradient(66deg, #c4c4c4, #b1abab, #b4abab, #a39494, #a09a93);
+}
+
+.item-with-subitems.p-relative .js-pages-accordion.list-subitems.hamburger-panel-accordion {
+	background: linear-gradient(66deg, #c4c4c4, #929292, #8a8a8a, #757575, #75716c);
+}
 
 /*Carrito de compras */
 

@@ -228,18 +228,7 @@ transition: all .4s ease-in;
 
 /* navbar */
 
-/* .desktop-nav,
-.desktop-nav-list {
-    background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
-    background-size: 1000% 1000%;
-    animation: AnimationName 17s ease infinite;
-    padding: 17px 0px;
-	font-size: 14px;
-	font-weight: 900;
-	letter-spacing: 1px;
-	text-decoration: none;
 
-} */
 
 .desktop-nav,
 .desktop-nav-list {
@@ -331,6 +320,20 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
     font-size: medium;
 }
 
+
+.desktop-nav .desktop-nav-arrow svg {
+    fill: #fff;
+	transform: translateX(-10px);
+}
+
+.desktop-nav .desktop-nav-arrow svg:hover {
+    fill: #f39c12;
+	transition: all .4s ease;
+}
+
+.desktop-nav-list .desktop-nav-item .desktop-nav-list {
+	box-shadow: 5px 5px 10px #8f8d8d, -5px -5px 10px #ccc;
+}
 
 .mobile-home-categories.horizontal-container.pills-container.container-fluid.visible-phone.text-left.m-bottom-half ul {
 	width: 90%;

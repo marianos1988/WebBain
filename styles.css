@@ -378,10 +378,6 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	transition: all .4s ease-in;
 }
 
-.js-pages-accordion.list-subitems.hamburger-panel-accordion li .js-pages-accordion.list-subitems.hamburger-panel-accordion {
-background: linear-gradient(66deg, #c4c4c4, #b1abab, #b4abab, #a39494, #a09a93);
-}
-
 .item-with-subitems.p-relative .js-pages-accordion.list-subitems.hamburger-panel-accordion {
 	background: linear-gradient(66deg, #c4c4c4, #929292, #8a8a8a, #757575, #75716c);
 }
@@ -718,114 +714,40 @@ margin-bottom: 10px;
 /* --------------------------- SECCION PRODUCTOS ------------------------------- */
 
 
-/* Categorias */
-.list-unstyled li a {
- 	padding: 4px
+.row-fluid.container-wide.container-xs.container-product-grid .span2.visible-when-content-ready {
+	background: linear-gradient(90deg, #807f7f -15%, rgba(0, 0, 0, 1) 33%);
+	color: #fff;
+	width: 200px;
+	padding: 15px 10px 0px 10px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px #727272, -5px -5px 10px #d1d1d1; 
 }
 
-
-
-/* Seleccion de filtros */
-
-.filters-container .js-filter-checkbox .checkbox:hover {
-	transition: all .4s ease-in;
-	font-weight: 900;
-	font-size: 14px;
-	text-decoration: none;
+.hidden-phone .list-unstyled li a {
+	color:#fff
 }
 
-/*Titulos de Filtros*/
-.container-product-grid .visible-when-content-ready .p-bottom-double .hidden-phone h4 {
-
-	font-size: 16px;
-	color: white;
-	background-color: black;
-	padding: 8px;
-	width: 112px;
-	border-radius: 15px;
-	line-height: 1;
-	text-align: center;
-	border-radius: 50px;
-    box-shadow: 10px 10px 40px #bebebe, -10px -10px 40px #cfcdcd;
-
-	box-shadow: 10px 10px 40px #bebebe, -10px -10px 40px #cfcdcd;
-    border-radius: 10px
-}
-
-.container-product-grid .visible-when-content-ready .hidden-phone h4 {
-
-	font-size: 16px;
-	color: white;
-	background-color: black;
-	padding: 8px;
-	border-radius: 15px;
-	width: 112px;
-	line-height: 1;
-	text-align: center;
-	box-shadow: 10px 10px 40px #bebebe, -10px -10px 40px #cfcdcd;
-
-
-}
-
-#filters-container #filters-column .filters-container h6 {
-
-	font-size: 16px;
-	color: white;
-	width: 112px;
-	background-color: black;
-	padding: 8px;
-	border-radius: 15px;
-	line-height: 1;
-	text-align: center;
-	box-shadow: 10px 10px 40px #bebebe, -10px -10px 40px #cfcdcd;
-
-}
-#filters-container #filters-column .js-price-filter-container form .h6 {
- 
-	font-size: 16px;
-	width: 112px;
-	color: white;
-	background-color: black;
-	padding: 8px;
-	border-radius: 15px;
-	line-height: 1;
-	text-align: center;
-	box-shadow: 10px 10px 40px #bebebe, -10px -10px 40px #cfcdcd;
-
-}
-
-.list-unstyled li a:hover {
-	text-decoration: none;
-	font-weight: 900;
-	font-size: 14px;
-	opacity: .6;
-	transition: all .4s ease-in;
-	color:#f39c12;
-}
-
-.js-remove-all-filters {
+.list-unstyled .m-bottom-quarter a {
 	text-decoration: none;
 
 }
 
-.js-remove-all-filters:hover {
-
-	font-weight: 900;
-	font-size: 14px;
-	opacity: .6;
+.list-unstyled .m-bottom-quarter a:hover {
+	color: #f39c12;
+	text-decoration: none;
 	transition: all .4s ease-in;
-	color:#f39c12;
+	
 }
 
-
-/*Ajuste de titulos de filtros*/
-@media (min-width: 850px) AND (max-width: 979px) {
-	.container-product-grid .visible-when-content-ready .p-bottom-double .hidden-phone h4 {
-		padding: 10px 7px;
-    	width: 112px;
-		transform: translateX(-18px);
+@media (min-width:770px) {
+	.row-fluid.container-wide.container-xs.container-product-grid {
+		display: flex;
+	
 	}
 }
+
+
+
 
 /* --------------------------- FIN SECCION PRODUCTOS ------------------------------- */
 
@@ -1332,12 +1254,11 @@ ul.list-style-none li {
 /*Card de  productos*/
 
 
-.item-image-container:hover {
+.item-image-container{
 
 		border-radius: 10px;
 	background: #e0e0e0;
-	box-shadow:  15px 15px 40px #bebebe,
-				 -15px -15px 40px #ffffff;
+box-shadow: 15px 15px 40px #bebebe, -6px -9px 10px #fff;
 	margin-bottom: 25px;
 	
 

@@ -746,6 +746,28 @@ margin-bottom: 10px;
 	}
 }
 
+/* Nueva actualizacion filtro */
+
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative {
+
+    color: gainsboro;
+    border-radius: 10px;
+    background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+    box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
+}
+
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative svg{
+	fill: gainsboro;
+}
+
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative:hover,
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative svg:hover {
+	color: #f39c12;
+	fill: #f39c12;
+	transition: all .4s ease-in;
+	opacity: 1 !important;
+	
+}
 
 
 

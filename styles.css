@@ -248,11 +248,6 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	outline-color: none;
 }
 
-/* .desktop-nav-link {
-	color: white;
-	border: 3px solid #f39c12;
-	margin: 3px 0px;
-} */
 
 .desktop-nav-link {
 	color: white;
@@ -267,10 +262,6 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	
 }
 
-/* .desktop-nav>.selected>.desktop-nav-link {
-    border-top: 3px solid #a8a8a8;
-
-} */
 
 .desktop-nav>.selected>.desktop-nav-link {
     border-top: none;
@@ -769,7 +760,60 @@ margin-bottom: 10px;
 	
 }
 
+.modal-xs-dialog .js-toggle-mobile-filters.js-fullscreen-modal-close.modal-xs-header .svg-inline--fa.fa-2x.modal-xs-header-icon.modal-xs-right-header-icon {
+	fill: gainsboro;
+}
 
+.modal-xs-dialog .js-toggle-mobile-filters.js-fullscreen-modal-close.modal-xs-header .svg-inline--fa.fa-2x.modal-xs-header-icon.modal-xs-right-header-icon:hover {
+
+	fill: #f39c12;
+	transition: all .4s ease-in;
+
+}
+
+.js-toggle-mobile-filters.js-fullscreen-modal-close.modal-xs-header .modal-xs-header-text.modal-xs-right-header-text {
+	color: gainsboro;
+}
+
+.js-toggle-mobile-filters.js-fullscreen-modal-close.modal-xs-header .modal-xs-header-text.modal-xs-right-header-text:hover {
+	color: #f39c12;
+	transition: all .4s ease-in;
+}
+
+.filters-container.full-width-container .m-bottom,
+.filters-container .m-bottom,
+.js-filter-checkbox.js-apply-filter.checkbox-container.m-bottom-half .checkbox {
+	color: gainsboro;
+}
+
+.js-filter-checkbox.js-apply-filter.checkbox-container.m-bottom-half .checkbox:hover {
+		color: #f39c12;
+	transition: all .4s ease;
+	opacity: .6;
+}
+
+.filters-container.full-width-container .list-unstyled.pills-container .pill .pill-link {
+	color:gainsboro;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.filters-container.full-width-container .list-unstyled.pills-container .pill .pill-link:hover {
+	color: #f39c12;
+	transition: all .4s ease;
+	opacity: .6;
+}
+
+.js-accordion-toggle.btn-link.btn-link-small .js-accordion-toggle-inactive:hover {
+	transition: all .4s ease;
+	color: white;
+	opacity: .6;
+}
+
+.form-group .js-filter-input-price-container.filter-input-price-container .form-label {
+	color:gainsboro;
+}
 
 /* --------------------------- FIN SECCION PRODUCTOS ------------------------------- */
 

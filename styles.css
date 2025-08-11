@@ -815,6 +815,19 @@ margin-bottom: 10px;
 	color:gainsboro;
 }
 
+.js-body-position.container .js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready {
+	background: #000;
+		border-radius: 20px;
+	box-shadow: 20px 20px 60px #a3a1a1, -20px -20px 60px #e1e1e1;
+	background: linear-gradient(270deg, #6e6e6e, #4b4b4b, #6e6e6e, #4b4b4b);
+	
+}
+
+
+.text-left.sort-by-container.m-top-quarter .d-inline{
+	color: #fff;
+}
+
 /* --------------------------- FIN SECCION PRODUCTOS ------------------------------- */
 
 /* ------------------------------  SECCION ENVIOS Y PAGOS ------------------------------- */

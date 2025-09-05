@@ -1012,48 +1012,7 @@ margin-bottom: 10px;
 /* ------------------------------ FIN SECCION DEVOLUCIONES Y CAMBIOS ------------------------------- */
 
 /* ------------------------------  SECCION CONTACTO ------------------------------- */
-/* .contact .span6 .info ul li a {
-	text-decoration: none;
-	width: 100%;
-	font-size: 18px;
 
-}
-
-.contact .span6 .info ul li a:hover {
-	font-weight: 900;
-	font-size: 20px;
-	opacity: .6;
-	transition: all .4s ease-in;
-	color:#f39c12;
-}
-
-.contact_form .form_group input:focus {
-    transition: all .4s ease-in;
-    border-color: #f39c12;
-    box-shadow: 0px 0px 15px 8px rgba(243, 156, 18, 1);
-
-}
-
-.contact .span6 .m-bottom {
-    margin-bottom: 20px !important;
-    display: flex;
-    flex-direction: column;
-	justify-content: left;
-	margin-left: 15px;
-
-}
-
-ul.list-style-none li {
-	display: flex;
-	font-size: 18px;
-    width: 300px;
-
-}
-
-.span6.list-style-none:nth-child(2) {
-	background-color: #1fce5f;
-	margin-left: 0;
-} */
 
 .contact .span6 .m-bottom {
     margin-bottom: 20px !important;
@@ -1156,6 +1115,55 @@ ul.list-style-none li {
 
 
 /* ------------------------------ FIN SECCION CONTACTO ------------------------------- */
+
+/* ------------------------------ SECCION INICIAR SESION ------------------------------- */
+
+
+.account-form-wrapper.visible-when-content-ready.m-bottom.m-top.row-fluid #login-form {	
+
+	background: linear-gradient(90deg, #807f7f -15%, rgba(0, 0, 0, 1) 33%);
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px #727272, -5px -5px 10px #d1d1d1;
+}
+
+.form-group .form-control:focus:invalid:focus {	
+transition: all .4s ease-in;
+border-color:#f39c12;
+-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+
+}
+
+.js-eye-closed .svg-inline--fa.svg-icon-primary,
+.js-eye-open .svg-inline--fa.svg-icon-primary {
+	fill: #000 ;
+}
+
+.font-small.weight-strong.m-top-quarter.m-bottom a,
+.m-top.text-center a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.font-small.weight-strong.m-top-quarter.m-bottom a:hover,
+.m-top.text-center a:hover  {
+	color: #f39c12;
+	opacity: .7;
+	transition: all .4s ease-in;
+
+}
+
+
+
+
+
+
+
+
+/* ---------------------------- FIN SECCION INICIAR SESION -----------------------------*/
 
 /* ------------------------------  SECCION DESCRIPCION ------------------------------- */
  .container-description {

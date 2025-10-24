@@ -396,7 +396,8 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 .h6-xs span,
 .h6-xs small,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span,
-.js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg {
+.js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg,
+.pull-left.cart-promotion-detail {
 	color: #fff;
 	fill:#fff;
 	text-decoration: none;
@@ -563,17 +564,37 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 }
 
 .js-mobile-services .swiper-wrapper .service-item-container {
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin: 15px 10px 20px 10px !important;
 	width: 95%;
-	background-color: #ccc;
+		background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+	color: #fff;
     padding: 7px;
     border-radius: 20px;
-    border: 3px solid black;
+    border: 3px solid #ccc;
 	height: inherit;
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+.container.services.p-top-half-xs.m-haf-top-xs.m-top.m-bottom {
+	display: flex;
+}
+
+.service-item-container.span4.has-3-banners.text-center.swiper-slide.border-none-xs {
+		margin: 15px 10px 20px 10px !important;
+	background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+	color: #fff;
+    padding: 7px;
+    border-radius: 20px;
+    border: 3px solid #ccc;
+	height: inherit;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+
+.service-icon.svg-icon-text.d-inline-block.m-right-half.m-none-xs.m-bottom-half-xs .svg-inline--fa.fa-2x.service-icon {
+	fill: #fff;
 }
 
 
@@ -637,12 +658,10 @@ box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
 .footer {
 border-top: 3px #f39c12 solid;
 border-bottom: 3px #f39c12 solid;
-background: linear-gradient(270deg, #000000, #393939, #1e1e1e, #6e6e6e, #1e1e1e);
-background-size: 1000% 1000%;
-animation: AnimationName 17s ease infinite;
+background: linear-gradient(66deg, #535353, #585555, #5a5a5a, #5f5d5d, #504e4e);
 padding: 17px 10px;
 font-size: 14px;
-font-weight: 900;
+font-weight: 600;
 letter-spacing: 1px;
 text-decoration: none;
 margin-bottom: 10px;
@@ -827,6 +846,14 @@ margin-bottom: 10px;
 .text-left.sort-by-container.m-top-quarter .d-inline{
 	color: #fff;
 }
+
+.label-primary,
+.label-accent {
+
+    margin-left: 3px;
+	border: 1px solid #fff;
+}
+
 
 /* --------------------------- FIN SECCION PRODUCTOS ------------------------------- */
 
@@ -1129,11 +1156,11 @@ margin-bottom: 10px;
 }
 
 .form-group .form-control:focus:invalid:focus {	
-transition: all .4s ease-in;
-border-color:#f39c12;
--webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
--moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1);
+	transition: all .4s ease-in;
+	border-color:#f39c12 !important;
+	-webkit-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1) !important;
+	-moz-box-shadow: 0px 0px 15px 8px rgba(243,156,18,1) !important;
+	box-shadow: 0px 0px 15px 8px rgba(243,156,18,1) !important;
 
 }
 
